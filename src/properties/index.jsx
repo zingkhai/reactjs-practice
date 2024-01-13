@@ -1,7 +1,7 @@
 function Profile(props) {
 	return (
 		<>
-			<h1>profile </h1>
+			<h1>profile page </h1>
 			<p>Name: {props.name}</p>
 			<p>Age: {props.age}</p>
 			<p>Student: {props.isStudent ? "yes" : "no"}</p>
